@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Your custom styles */
+
+        /* ... (Keep your existing styles here) */
+
+        body {
+            background-color: #f2f2f2; /* Light grey background */
+            color: #333; /* Dark text */
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            margin: 10px; /* Added margin for better spacing */
+        }
+
+        .dropbtn {
+            background-color: #333;
+            color: white;
+            padding: 15px 30px; /* Adjusted padding */
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #fff; /* White background for dropdown */
+            color: #333; /* Text color for dropdown */
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: #333;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            transition: background-color 0.3s ease;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #e91e63;
+        }
+
+        .hero-image {
+            background: url(https://www.apac-insider.com/wp-content/uploads/2021/02/Business-growth.jpg) no-repeat center;
+            background-size: cover;
+            height: 600px;
+            position: relative;
+        }
+
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+
+        .content-section {
+            text-align: center;
+            margin: 20px;
+            background-color: #fff; /* White background for text box */
+            padding: 20px; /* Added padding for spacing */
+            border-radius: 8px; /* Added border-radius for a softer appearance */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box-shadow for a subtle lift */
+        }
+
+        .content-section img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 8px; /* Added border-radius for a softer image appearance */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box-shadow for a subtle lift */
+        }
+
+        .jumbotron {
+            background-color: #f2f2f2; /* Light grey background for ABOUT US */
+            color: #333; /* Darker text for better contrast */
+            padding: 40px;
+            border-radius: 8px;
+        }
+
+        .footer {
+            background-color: #f2f2f2; /* Light grey background for the footer */
+            color: #333; /* Dark text for better contrast */
+            padding: 20px;
+            text-align: center;
+            border-top: 1px solid #4CAF50; /* Border color slightly lighter than the footer background */
+            margin-top: 20px;
+        }
+
+        /* ... (Keep your existing styles here) */
+    </style>
+</head>
+
+<body>
+
+    <div class="dropdown">
+        <button class="dropbtn">Menu</button>
+        <div class="dropdown-content">
+            <a href="#">Company details</a>
+            <a href="#">Financial information</a>
+            <a href="#">Partners</a>
+        </div>
+    </div>
+
+   <div class="welcome-section">
+    <h1>Welcome to Siyanqoba Training and Consulting</h1>
+    <p>Your premier destination for quality training and consulting services.</p>
+</div>
+
+
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1 style="font-size:70px"></h1>
+        </div>
+    </div>
+
+    <div class="content-section">
+        <p><h4 style="font-size:15px;"><i>Our business is intending to create people with courage that will add value to developing
+                communities, with principles that will shape the future and livelihood of a growing nation. Our
+                accessibility and affordability are a guarantee to invade the space of employment and business ideas.</i></h4></p>
+    </div>
+
+    <center><img id="image-L" src="L.jpg" alt="loading picture" width="800" height="600"></center>
+
+    <div class="content-section">
+        <p><h4><b>Siyanqoba Training and Consulting company offers the following training and skills:</b></h4></p>
+        <p><h4>This qualification is primarily vocational, or industry-oriented. It provides you with the basic introductory knowledge, critical thinking skills, and practical techniques in the chosen field of study. The curriculum is problem-based and student-oriented with vertical and horizontal integration of subjects, providing an environment in which academic support and skills development are integrated with regular academic work. We offer help with:</h4>
+            <h4>Reading and writing, Programme and Project Management, Management and Leadership, Facilitation, Mentorship, Coaching, Assessment Design, Assessment Moderation, Public Speaking, Report writing, Music literacy</h4></p>
+        <!-- Add more details or modify as needed -->
+    </div>
+
+    <center><img src="P.jpg" alt="loading picture" width="600" height="400"></center>
+
+    <div class="content-section">
+        <p><h4><i>We</i> also offer basic facilitation and public speaking skills for managers and employees who are mentors and coaches in their workplace. For educators and trainers in the development and facilitation environment, our institution provides the best in Assessment Design and Moderation. Our learners need not have any high school qualification, but they just need to be passionate about what they do to produce the best results. We also offer scarce skills in terms of Management and Leadership, Programme and Project Management for developing and established companies. Most importantly, we offer our courses to people who do not have a high school or tertiary level of education. Siyanqoba Training and Consulting also provides training on basic music literacy for all ages, starting from pre-school learners to the elderly. Music is the food of the soul and the best mind-relaxing exercise of all times.
+            <br><br>Our community is under siege and, therefore, living in fear of being victimized by crime within and outside their homes. Siyanqoba Training and Consulting also offers courses to all age groups on security risk management and community safety</h4></p>
+    </div>
+
+    <center><img src="V.jpg" alt="loading picture" width="600" height="800"></center>
+
+    <div class="content-section">
+        <p><b><h3>Admission requirements</h3></b></p>
+        <h4><p>There is no limit to admission; the institution is able to train people of all levels of education, elderly and young, we offer basic education skills in terms of reading and writing for people who have never been in a basic school environment, basic computer literacy for those people who are in a working environment and cannot be able to operate the computer optimally.</p></h4>
+        <p><b><h3>Duration of courses (Full time or part-time)</h3></b></p>
+        <h4><p>We offer full-time and part-time classes to cover people with busy schedules of life and work; we work extensively, including weekends and after hours. We also do online classes for those who are unable to physically attend classes.</p></h4>
+        <p><b><h3>Registration and accreditation</h3></b></p>
+        <h4><p>Our company is registered with CIPC, CSD, PSIRA and accredited by the ETD Seta and the University of South Africa for certification.</p></h4>
+        <p><b><h3>Course costs</h3></b></p>
+        <h4><p>Our Costs are affordable depending on the needs of our learners:<br>
+                - Full-time Learners depend on the type of course and duration.<br>
+                - Part-time learners are charged according to the hours/day of the week that they will be spending and the type of courses they registered are for.</p></h4>
+    </div>
+
+    <center><img src="o.jpg" alt="loading picture" width="600" height="800"></center>
+
+    <div class="content-section">
+        <p><b><h1>Qualifications:</h1></b></p>
+        <h4><p align="left"><b>1. Working class of all ages and levels of education:</b> We offer courses to all classes and levels of education; there are specific courses made for different levels of education, the same type of course delivered in different ways and methods to suit the type of target and market and need of our audience</p>
+            <p align="left"><b>2. Graduates:</b> Our courses incorporate theory and practical skills</p>
+            <p align="left"><b>3. Drop-out students:</b> We understand that our community is somehow having socio-economic issues, where they find themselves having to leave basic education earlier than anticipated due to social challenges; therefore, we also offer courses for people of all classes, including those who have dropped out of the education environment.</p>
+           <p align="left"><b>4. Matriculated learners:</b> Tertiary education is very expensive, and thus some of our matriculants cannot afford education at tertiary institutions, but our institution offers tertiary level education in small packages according to affordability and passion of our society.</p>
+            <p align="left"><b>5. High School and primary school learners:</b> Parents and teachers are busy and unable to assist learners with their homework tasks and extra classes; therefore, the need for tutoring and assistance with homework is our priority so that we have our learners improve their studies and produce better results for their future to be bright.</p></h4>
+    </div>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <div class="jumbotron text-center">
+        <h1><center>ABOUT US</center></h1>
+        <p><i>Siyanqoba Training and Consulting company</i></p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3><b>VISION:</b></h3>
+                <p>To be an outstanding training and consulting company, that develops global communities from young age
+                    in skills that will assist in producing them to being successful and balanced society that’s able to
+                    generate sustainable income consistently.</p>
+                <p></p>
+            </div>
+            <div class="col-sm-4">
+                <h3><b>MISSION:</b></h3>
+                <p>To build without mainstream basic education, scarce skilled promotable people, with improved working
+                    ability that will help them to manage their own established businesses without outsourcing skills;
+                    and...</p>
+                <p>To empower community on safety and security skills that will benefit the society to live in a crime
+                    free environment that will attract international investors. ...</p>
+            </div>
+            <div class="col-sm-4">
+                <h3><b>VALUE:</b></h3>
+                <p>Genuine and quality. Spot on and smart practice (a series of short courses that add to lifetime
+                    services of excellence). Development of nobody into somebody. ...</p>
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h5><i>Our business is intending to create people with courage that will add value to developing communities,
+                with principles that will shape the future and livelihood of a growing nation. Our accessibility and
+                affordability is a guarantee to invade the space of employment and business ideas</
+<script src="script.js"></script> 
+</body> 
+</html>
